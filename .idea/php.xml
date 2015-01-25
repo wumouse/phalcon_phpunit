@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="PHPUNIT_PHAR" bootstrap_file_path="$PROJECT_DIR$/public/testBootstrap.php" configuration_file_path="$PROJECT_DIR$/public/phpunit.xml" custom_loader_path="" phpunit_phar_path="D:/upupw/PHP5/phpunit.phar" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+</project>
