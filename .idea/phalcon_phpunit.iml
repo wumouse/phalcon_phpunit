@@ -2,22 +2,22 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/model" isTestSource="false" packagePrefix="Model" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/apps/api/controller" isTestSource="false" packagePrefix="Api\Controller" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" packagePrefix="Test" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/apps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/library" isTestSource="false" packagePrefix="Library" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" packagePrefix="Test" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/model" isTestSource="false" packagePrefix="Model" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="PHP">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../service/phalcon_ide" />
-          <root url="file://$MODULE_DIR$/../phpunit" />
+          <root url="file://Z:/phpunit/src" />
+          <root url="file://Z:/phalcon_ide" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../service/phalcon_ide" />
-          <root url="file://$MODULE_DIR$/../phpunit" />
+          <root url="file://Z:/phpunit/src" />
+          <root url="file://Z:/phalcon_ide" />
         </SOURCES>
       </library>
     </orderEntry>
