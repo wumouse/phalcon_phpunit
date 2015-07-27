@@ -2,16 +2,14 @@
 /**
  * phalcon_phpunit.
  *
- * @author wumouse <wumouse@qq.com>
+ * @author Haow1 <haow1@jumei.com>
  * @version $Id$
  */
-
-namespace Api\Config;
 
 use Phalcon\Config;
 
 return new Config([
     'view' => [
-        'dir' => APP_DIR . '/view/',
+        'dir' => 'view'
     ]
 ]);

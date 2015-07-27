@@ -6,20 +6,24 @@
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" packagePrefix="Test" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/model" isTestSource="false" packagePrefix="Model" />
+      <sourceFolder url="file://$MODULE_DIR$/config" isTestSource="false" packagePrefix="Config" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/api" isTestSource="false" packagePrefix="Api" />
+      <sourceFolder url="file://$MODULE_DIR$/apps/index" isTestSource="false" packagePrefix="Index" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="PHP">
         <CLASSES>
-          <root url="file://Z:/phpunit/src" />
-          <root url="file://Z:/phalcon_ide" />
+          <root url="file://$USER_HOME$/workspace/Library/phalcon-devtools/ide/1.3.4" />
+          <root url="file://$USER_HOME$/workspace/Library/phpunit" />
         </CLASSES>
         <SOURCES>
-          <root url="file://Z:/phpunit/src" />
-          <root url="file://Z:/phalcon_ide" />
+          <root url="file://$USER_HOME$/workspace/Library/phalcon-devtools/ide/1.3.4" />
+          <root url="file://$USER_HOME$/workspace/Library/phpunit" />
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="angular" level="application" />
   </component>
 </module>

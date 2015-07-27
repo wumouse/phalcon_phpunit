@@ -14,10 +14,3 @@ require __DIR__ . '/../config/Bootstrap.php';
 $bootstrap = new Bootstrap();
 $application = $bootstrap->getApplication($di = new FactoryDefault(), 'index');
 
-try {
-    $application->handle();
-} catch (Exception $e) {
-    echo $e;
-} finally {
-    echo $application->response->getContent();
-}

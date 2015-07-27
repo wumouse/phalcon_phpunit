@@ -10,17 +10,10 @@
 
 namespace Config;
 
-/** 控制器顶层空间 */
-const CONTROLLER_NAMESPACE = 'Api\Controller';
+use Phalcon\Config;
 
-return [
+return new Config([
     'debug' => 1,
-    'autoloadNamespaces' => [
-        CONTROLLER_NAMESPACE => APP_DIR . '/controller',
-        'Model' => PROJECT_DIR . '/model',
-    ],
-
-    'controllerNamespace' => CONTROLLER_NAMESPACE,
 
     'view' => [
         'dir' => '',
@@ -32,4 +25,4 @@ return [
         'username' => 'root',
         'password' => 'root',
     ]
-];
+]);

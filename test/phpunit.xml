@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="./testBootstrap.php"
+<phpunit bootstrap="bootstrap.php"
          backupGlobals="false"
          backupStaticAttributes="false"
          verbose="true"
@@ -9,8 +8,10 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false"
-         syntaxCheck="true">
-    <testsuite name="Phalcon - Testsuite">
-        <directory>../test</directory>
-    </testsuite>
+         syntaxCheck="true">>
+    <testsuites>
+        <testsuite name="phalcon_phpunit - test suite">
+            <directory>.</directory>
+        </testsuite>
+    </testsuites>
 </phpunit>
